@@ -217,7 +217,7 @@ div img{
         margin-left: auto;
         margin-right: auto;
         height: 100% ;
-        background:#1b1b1b;
+        background:red;
         width: 390px;
         padding: 15px 15px 15px 15px; /*Top, Right, bottom, Left*/
     }
