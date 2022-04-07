@@ -14,7 +14,7 @@ hr{
     height: 25px;
 }
 hr:hover{
-    width: 75%;
+    width: 100%;
     transition: all 0.3s ease-in-out;
 }
 h1{
@@ -58,13 +58,13 @@ nav{
     padding: 0px 15px 0px 15px; /*Top, Right, bottom, Left*/
 }
 nav .logo{
-    font-size: 35px;
+    font-size: 30px;
     color: white;
     font-weight: 600px;
     position: static;
 }
 nav .logo:hover{
-    font-size: 40px;
+    font-size: 35px;
     color:white;
     font-weight: 900px;
     position: static;
@@ -156,9 +156,17 @@ footer ul{
     color:black;
 }
 div.social_div{
-        height: 100% ;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 675px;
         background:#1b1b1b;
+        width: 425px;
         padding: 15px 15px 15px 15px; /*Top, Right, bottom, Left*/
+}
+div.social_div:hover{
+    width: 700px;
+    transition: all 1s ease;
 }
 div img{
     display:flex;
@@ -176,7 +184,7 @@ div img{
         height: 100%;
         padding: 15px;
         margin: 0px;
-        border-radius: 100px;
+        border-radius: 0px;
         display: block;
         text-align: center;
         transition: all 1.2s ease-in-out;
@@ -204,6 +212,21 @@ div img{
     #click-menu:checked ~ .menu-button i:before{
         content: "\f00d";
     }
+    div.social_div{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 100% ;
+        background:#1b1b1b;
+        width: 425px;
+        padding: 15px 15px 15px 15px; /*Top, Right, bottom, Left*/
+    }
+    div.social_div:hover{
+        width: 425px;
+    }
+    hr:hover{
+        width: 50%;
+    }
 }
 ::-webkit-scrollbar {
   width: 15px;
@@ -222,7 +245,7 @@ div img{
 footer ul li a i{
     display: flex;
     color: aliceblue;
-    font-size: 35px;
+    font-size: 25px;
 }
 footer ul li a i:hover{
     background: white;
