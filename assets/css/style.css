@@ -58,7 +58,7 @@ nav ul li a:hover{
 }
 .content .welcome{
     display: inline-block;
-    background: linear-gradient(180deg, cyan
+    background: linear-gradient(45deg, cyan
     ,blue);
     font-size: 25px;
     border-radius: 30px;
@@ -121,32 +121,33 @@ p.auto-typer-para{
     }
     .mobile-container .mobile-navbar .menu-button i{
         color: white;
-        font-size: 25px;
+        font-size: 35px;
         display: block;
         cursor: pointer;
     }
     nav.mobile-nav ul{
         position: fixed;
-        top: 150px;
+        top: 130px;
         background-color:cyan;
         left: -120%;
         width: 100%;
-        height: 100%;
-        padding: 10px;
+        height: 4vh;
+        padding: 5px;
         margin: 0px;
-        border-radius: 0%;
+        border-radius: 0px;
         display: block;
-        text-align: center;
+        text-align:justify;
         transition: all 1.2s ease-in-out;
     }
     #click-menu:checked ~ ul {
         left: 0%;
     }
     nav.mobile-nav ul li{
-        margin: 75px 25px;
+        margin:5px 5px 5px 5px;
+        padding-left: 5px 5px 5px 5px;
     }
     nav.mobile-nav ul li a{
-        font-size: 25px
+        font-size: 20px
     }
     #click-menu:checked ~ .menu-button i:before{
         content: "\f00d";
@@ -155,8 +156,11 @@ p.auto-typer-para{
         background: linear-gradient(180deg, cyan
         ,blue);
         width: 100%;
-        height: 12vh;
-        padding-left: 0px;
+        height: 10vh;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
         display: flex;
         align-items: center;
         border-radius:25px ;
