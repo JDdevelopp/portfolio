@@ -28,13 +28,17 @@
             <p class="welcome">
                 😁Welcome ....
             </p>
-           </p>
-            <h1>Hi, this is<br><span class="auto-typing-head"></span></h1>
-            <p class="auto-typer-para"><span style="color: white;" class="auto-typing"></span> </p>
+            <h1>Hi, this is<br>
+                <span class="auto-typing-head"></span>
+            </h1>
+            <p class="auto-typer-para">
+                <span style="color: white;" class="auto-typing"></span>
+            </p>
         </div>
         <div class="arrow-icons">
             <img src="assets/images/arrow-right.png" alt="">
         </div>
+        
     </div>
 
 <!--------------XD----------------->
@@ -51,8 +55,8 @@
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">About Me</a></li>
-                    <li><a href="">Socials</a></li>
                     <li><a href="">Skills</a></li>
+                    <li><a href="">Socials</a></li>
                 </ul>
             </nav>
         </div>
@@ -60,10 +64,15 @@
             <p class="welcome">
                 😁Welcome ....
             </p>
-           </p>
-            <h1>Hi, this is<br>
-                <span class="auto-typing-head"></span>
+            <h1 style="font-size: 50px;">Hi, this is<br>
+                <span style="font-size: 50px;" class="auto-typing-head-mobile"></span>
             </h1>
+            <p class="auto-typer-para">
+                <span style="color: black"; class="auto-typing-para-mobile"></span>
+            </p>
+            <div class="arrow-icons">
+                <img src="assets/images/arrow-right.png" alt="">
+            </div>
         </div>
     </div>
     </div>
@@ -83,7 +92,19 @@
             typeSpeed: 320,
             backSpeed: 200,
             loop: false
-        })
+        });
+        var typing_head = new Typed(".auto-typing-head-mobile",{
+            strings:["JAGRATA DEB"],
+            typeSpeed: 320,
+            backSpeed: 200,
+            loop: false
+        });
+        var typing_para = new Typed(".auto-typing-para-mobile", {
+            strings: ["I am an INDIAN. ","I love to CODE.","I am a school student.","I am 17 years old.","I am a Discord user."],
+            typeSpeed: 70,
+            backSpeed: 20,
+            loop: true
+        });
     </script>
 </body>
 </html>
