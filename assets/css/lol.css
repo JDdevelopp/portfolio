@@ -136,6 +136,9 @@ footer div.logo_pic img:hover{
     padding: 50px;
     transition: all 1s ease-in-out;
 }
+#click-menu{
+    display: none;
+}
 footer ul li.social-link{
     list-style: none;  
 }

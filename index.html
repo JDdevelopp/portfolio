@@ -25,19 +25,65 @@
             </nav>
         </div>
         <div class="content">
-            <p class="btn">
+            <p class="welcome">
                 😁Welcome ....
             </p>
            </p>
-            <h1>Hi, this is<br>JAGRATA DEB</h1>
-            <p>The only way to do great work is to love what you do.
-                <br><br>
-            </p>
-            <p>- Steve Jobs</p>
+            <h1>Hi, this is<br><span class="auto-typing-head"></span></h1>
+            <p class="auto-typer-para"><span style="color: white;" class="auto-typing"></span> </p>
         </div>
         <div class="arrow-icons">
             <img src="assets/images/arrow-right.png" alt="">
         </div>
     </div>
+
+<!--------------XD----------------->
+
+    <div class="mobile-container">
+        <div class="mobile-navbar">
+            <img src="assets/images/profile_pic.png" class="mobile-logo">
+
+            <nav class="mobile-nav">
+                <input type="checkbox" id="click-menu">
+                <label for="click-menu" class="menu-button">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Me</a></li>
+                    <li><a href="">Socials</a></li>
+                    <li><a href="">Skills</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="content">
+            <p class="welcome">
+                😁Welcome ....
+            </p>
+           </p>
+            <h1>Hi, this is<br>
+                <span class="auto-typing-head"></span>
+            </h1>
+        </div>
+    </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typing_para = new Typed(".auto-typing", {
+            strings: ["I am an INDIAN. ","I love to CODE.","I am a school student.","I am 17 years old.","I am a Discord user."],
+            typeSpeed: 70,
+            backSpeed: 20,
+            loop: true
+        });
+        var typing_head = new Typed(".auto-typing-head",{
+            strings:["JAGRATA DEB"],
+            typeSpeed: 320,
+            backSpeed: 200,
+            loop: false
+        })
+    </script>
 </body>
 </html>

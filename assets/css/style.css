@@ -36,32 +36,27 @@ nav ul li{
 
 }
 nav ul li a{
-    transition: all 0.5s ease-in;
+    transition: all 1s ease-in;
     text-decoration: none;
     color: black;
     font-size: 23px;
 }
 nav ul li a:hover{
-    transition: all 0.5s ease-in-out;
+    transition: all 0.2s ease-in-out;
     color: white;
 }
 .content h1{
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 100;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-bottom: 15px;
     color: black;
 }
-.content p{
-    font-weight: 300;
-    font-size: 28px;
-    color: black;
-}
 .content{
-    margin-top: 12%;
-    margin-left: 15%;
+    margin-top: 10%;
+    margin-left: 10%;
 }
-.content .btn{
+.content .welcome{
     display: inline-block;
     background: linear-gradient(180deg, cyan
     ,blue);
@@ -71,11 +66,18 @@ nav ul li a:hover{
     box-sizing: border-box;
     text-decoration: none;
     color: white;
-    transition: all 0.5s ease-in;
 }
-.content .btn:hover{
+.content .welcome:hover{
     transition: all 0.2s ease;
     box-shadow: 10px 18px 30px black;
+}
+.explore-btn p{
+    display: inline-block;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, cyan
+    ,blu);
+    font-size: 40px;
 }
 .arrow-icons{
     margin-left: 5%;
@@ -91,9 +93,106 @@ nav ul li a:hover{
     width: 60px;
     margin-right:0;
     margin-left: 80px;
-
 }
 .arrow-icons img:hover{
     transition: all 0.1s ease-in-out;
     box-shadow:10px 8px 25px white;
+}
+p.auto-typer-para{
+    font-size: 35px;    
+}
+#click-menu{
+    display: none;
+}
+@media (max-width: 600px) {
+    .container{
+        display: none;
+    }
+    .mobile-container{
+        position: fixed;
+        height: 1000vh;
+        width: 100%;
+        background-image: url(../images/background.jpg);
+        padding-left: 3%;
+        padding-right: 5%;
+        padding-top: 3%;
+        box-sizing: border-box;
+        position: relative;
+    }
+    .mobile-container .mobile-navbar .menu-button i{
+        color: white;
+        font-size: 25px;
+        display: block;
+        cursor: pointer;
+    }
+    nav.mobile-nav ul{
+        position: fixed;
+        top: 150px;
+        background-color:cyan;
+        left: -120%;
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        margin: 0px;
+        border-radius: 0%;
+        display: block;
+        text-align: center;
+        transition: all 1.2s ease-in-out;
+    }
+    #click-menu:checked ~ ul {
+        left: 0%;
+    }
+    nav.mobile-nav ul li{
+        margin: 75px 25px;
+    }
+    nav.mobile-nav ul li a{
+        font-size: 25px
+    }
+    #click-menu:checked ~ .menu-button i:before{
+        content: "\f00d";
+    }
+    .mobile-navbar{
+        background: linear-gradient(180deg, cyan
+        ,blue);
+        width: 100%;
+        height: 12vh;
+        padding-left: 0px;
+        display: flex;
+        align-items: center;
+        border-radius:25px ;
+        justify-content: space-between;
+    }
+
+    .mobile-logo{
+        border-radius: 100%;
+        width: 50px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .mobile-content h1{
+        font-size: 60px;
+        font-weight: 100;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        color: black;
+    }
+    .mobile-content{
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+    .mobile-content .welcome{
+        display: inline-block;
+        background: linear-gradient(180deg, cyan
+        ,blue);
+        font-size: 25px;
+        border-radius: 30px;
+        padding: 20px 20px;
+        box-sizing: border-box;
+        text-decoration: none;
+        color: white;
+    }
+    .mobile-content .welcome:hover{
+        transition: all 0.2s ease;
+        box-shadow: 10px 18px 30px black;
+    }
 }
