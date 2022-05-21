@@ -1,312 +1,114 @@
 *{
     margin: 0;
     padding: 0;
-}
-.container{
-    height: 100vh;
-    width: 100%;
-    background-image: url(../images/background.jpg);
-    background-position: center;
-    background-repeat: repeat-y;
-    background-size: cover;
-    padding-left: 1%;
-    padding-right: 25%;
     box-sizing: border-box;
-    position: relative;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.container-normal{
-    height: 100%;
+body{
+    min-height: 100vh;
+    background: linear-gradient(#2b1055, #7597de);
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    background: linear-gradient(45deg, blue, cyan);
-    background-repeat: repeat-y;
-    padding-left: 1%;
-    padding-right: 25%;
-    box-sizing: border-box;
-    position: relative;
-}
-.mobile-container{
-    display: none;
-}
-.navbar{
-    width: 100%;
-    height: 15vh;
-    margin: auto;
+    padding: 30px 100px;
     display: flex;
+    justify-content: space-between;
+    z-index: 10000;
+}
+header .logo{
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2rem;
+    text-transform: upperrcase;
+    letter-spacing: 2px;
+}
+header ul{
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
-h2{
-    margin-top:35px ;
-    margin-bottom: 15px;
-    font-size: 35px;
-}
-.head-2{
-    margin-top:35px ;
-    margin-bottom: 15px;
-    font-size: 35px;
-    color: white;
-}
-hr{
-    width: 100%;
-    height: 15px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    background: linear-gradient(180deg, cyan
-    , blue
-    );
-    border-color: blue;
-    border-radius: 100px;
-}
-.para-general-1{
-    margin-top: 25px;
-    font-size: 25px;
-    color: black;
-}
-.para-general-2{
-    margin-top: 25px;
-    font-size: 25px;
-    color: white;
-}
-.logo{
-    width: 80px;
-    cursor: pointer;
-    margin-left: 20px;
-    margin-right: 20px;
-    border-radius: 100%;
-}
-nav ul li{
-    display: inline-block;
+header ul li {
     list-style: none;
-    margin: 0px 8px;
-    font-size: 20px;
-
+    margin: 20px;
 }
-nav ul li a{
+header ul li a{
     text-decoration: none;
-    color: black;
-    font-size: 23px;
-}
-nav ul li a:hover{
+    padding: 6px 15px;
     color: white;
-    background: linear-gradient(90deg, cyan
-    , blue);
-    padding: 5px 5px 5px 5px;
-    border-radius: 25px;
+    border-radius:20px ;
 }
-nav ul li a.active{
-    color: white;
-    background: linear-gradient(90deg, cyan
-    , blue);
-    padding: 5px 5px 5px 5px;
-    border-radius: 25px;
+header ul li a:hover,
+header ul li a.active
+{
+    background: white;
+    color: #2b1055;
 }
-.content h1{
-    font-size: 60px;
-    font-weight: 100;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    color: black;
-}
-.content{
-    margin-top: 10%;
-    margin-left: 10%;
-}
-.content .welcome{
-    display: inline-block;
-    background: linear-gradient(45deg, cyan
-    ,blue);
-    font-size: 25px;
-    border-radius: 30px;
-    padding: 20px 20px;
-    box-sizing: border-box;
-    text-decoration: none;
-    color: white;
-    box-shadow: 10px 18px 25px black;
-}
-.arrow-icons{
-    margin-left: 5%;
-    margin-top: 50px;
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
     display: flex;
+    justify-content: center;
 }
-.arrow-icons img{
+.section ::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, #1c0522, transparent);
+    z-index: 1000;
+}
+section img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+section img#moon{
+    mix-blend-mode: screen;
+}
+section img#mountains_front{
+    z-index: 10;
+}
+#text{
+    position: absolute;
+    color: #fff;
+    white-space: nowrap;
+    font-size: 7.5vw;
+    z-index: 9;
+}
+#btn{
+    text-decoration: none;
     display: inline-block;
-    background: linear-gradient(180deg, blue
-    ,cyan);
-    border-radius: 100%;
-    padding: 20px 30px;
-    width: 60px;
-    margin-bottom: 100px;
-    margin-right:0;
-    margin-left: 80px;
+    padding: 8px 30px;
+    height: 30%;
+    border-radius: 40px;
+    background: #fff;
+    color: #2b1055;
+    z-index: 9;
+    font-size: 1.5em;
+    transform: translateY(100px);
 }
-
-.arrow-icons img:hover{
-    transition: all 0.1s ease-in-out;
-    box-shadow:10px 8px 25px white;
+.sec{
+    position: relative;
+    padding: 100px;
+    background: #1c0522;
 }
-p.auto-typer-para{
-    font-size: 35px;    
+.sec h2{
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: white;
 }
-#click-menu{
-    display: none;
-}
-::-webkit-scrollbar {
-    width: 20px;
-}
-::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 15px cyan; 
-}
-::-webkit-scrollbar-thumb {
-    background: linear-gradient(90deg, cyan, blue); 
-    border-radius: 50px;
-    height: 10%;
-}
-::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(90deg, blue, cyan); 
-}
-footer{
-    height: 200px;
-    background: linear-gradient(45deg, cyan, blue
-    );
-    padding: 25px 25px 25px 25px;
-}
-.email{
-    text-align: center;
-    background: linear-gradient(90deg, blue, cyan);
-    padding: 5px;
-    border-radius:40px;
-    font-size: 20px;
-}
-.copyright{
-    text-align: center;
-    background: linear-gradient(45deg, blue, cyan);
-    height: 70PX;
-    padding: 5px;
-    font-size: 25px;
-    padding-top: 25px;
-    padding-bottom: 0px;
-    border-radius: 10px;
-    border-color:5px solid cyan;
-}
-/* Mobile Version starts */
-
-@media (max-width: 600px) {
-    .container{
-        display: none;
-    }
-    footer{
-        display: none;
-    }
-    .container-normal{
-        display: none;
-    }
-    .mobile-container{
-        display: block;
-    }
-    .mobile-container{
-        position: fixed;
-        height: 100vh;
-        width: 100%;
-        background-image: url(../images/background.jpg);
-        padding-left: 3%;
-        padding-right: 8%;
-        padding-top: 3%;
-        box-sizing: border-box;
-        position: fixed;
-    }
-    .mobile-container .mobile-navbar .menu-button{
-        color: white;
-        font-size: 20px;
-        display: inline-block;
-        cursor: pointer;
-        background: linear-gradient(180deg, blue
-        ,cyan);
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        border-radius: 10px;
-    }
-    nav.mobile-nav ul{
-        position: fixed;
-        top: 150px;
-        background:linear-gradient(180deg, cyan
-        ,blue);
-        left: -120%;
-        width: 100%;
-        height: 15vh;
-        padding: 12px;
-        margin: 0px;
-        border-radius: 55px;
-        display: block;
-        text-align:left;
-        transition:1.5s ease-in-out;
-    }
-    #click-menu:checked ~ ul {
-        left: 8%;
-    }
-    nav.mobile-nav ul li{
-        margin:2px 20px 10px 25px;
-        padding-left: 5px 5px 5px 5px;
-    }
-    nav.mobile-nav ul li a{
-        font-size: 20px
-    }
-    #click-menu:checked ~ .menu-button::before{
-        content: "CLOSE";
-        background: linear-gradient(180deg,cyan
-        ,blue);
-        padding-left: 5px;
-        padding-right: 5px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        border-radius: 25px;
-        color: black;
-        font-size: 18px;
-    }
-    .mobile-navbar{
-        background: linear-gradient(180deg, cyan
-        ,blue);
-        width: 100%;
-        height: 12vh;
-        padding-left: 10px;
-        padding-top: 10px;
-        padding-right: 10px;
-        padding-bottom: 10px;
-        display: flex;
-        align-items: center;
-        border-radius:40px ;
-        justify-content: space-between;
-    }
-    .mobile-logo{
-        border-radius: 100%;
-        width: 70px;
-        margin-top: 10px;
-        margin-left: 10px;
-    }
-    .mobile-content h1{
-        font-size: 60px;
-        font-weight: 100;
-        margin-top: 15px;
-        margin-bottom: 15px;
-        color: black;
-    }
-    .mobile-content{
-        margin-top: 10%;
-        margin-left: 10%;
-    }
-    .mobile-content .welcome{
-        display: inline-block;
-        background: linear-gradient(180deg, cyan
-        ,blue);
-        font-size: 25px;
-        border-radius: 30px;
-        padding: 20px 20px;
-        box-sizing: border-box;
-        text-decoration: none;
-        color: white;
-    }
-    .mobile-content .welcome:hover{
-        transition: all 0.2s ease;
-        box-shadow: 10px 18px 30px black;
-    }
+.sec p{
+    font-size: 1.2em;
+    color: white;
 }
