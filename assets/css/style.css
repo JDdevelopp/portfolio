@@ -140,7 +140,7 @@ body {
 }
 .wrapper .main_content .profile_design{
     padding: 20px 20px 20px 20px;
-    margin: 10px 10px 120px 10px;
+    margin: 10px 10px 75px 10px;
     font-size: 40px;
     background: white;
     text-align: center;
@@ -239,4 +239,46 @@ body {
     border-left: 10px solid #1b1b1b;
     border-top: 10px solid #1b1b1b;
     border-right:10px solid #1b1b1b95;
+}
+
+.thank{
+    margin-top:50px ;
+    text-align: center;
+    font-size: 100px;
+    background: linear-gradient(45deg, black, grey);
+    border-radius: 10px;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding: 200px;
+    color: white;
+    
+}
+
+.formsubmit_promotion{
+    background: linear-gradient(45deg,white, grey);
+    padding: 15px;
+    border-radius: 50px;
+    color: black;
+}
+
+.home{
+    background: linear-gradient(45deg, black, grey);
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    margin-bottom: 25px;
+    padding: 25px;
+    font-size: 35px;
+    border-radius:45px;
+}
+
+.home:hover{
+    background: linear-gradient(45deg, grey, black);
+}
+
+.home a{
+    color: white;
+    letter-spacing: 1px;
 }
