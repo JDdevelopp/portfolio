@@ -186,13 +186,57 @@ body {
     box-shadow: 0 15px 23px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.wrapper .main_content .contact_form{
-    padding: 20px 20px 20px 20px;
-    margin: 10px 10px 120px 10px;
-    font-size: 40px;
+.wrapper .main_content .enter_email{
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 80px 10px;
+    font-size: 25px;
+    width: 100%;
     background: white;
     text-align: center;
     color: black;
-    border-left: 10px solid #1b1b1b;
+    border: 10px solid #1b1b1b95;
+    border-top: 10px solid #1b1b1b95;
+    border-right: 10px solid #1b1b1b;
+    border-bottom: 10px solid #1b1b1b;
     box-shadow: 0 15px 23px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.wrapper .main_content .enter_message{
+    padding: 10px 10px 10px 10px;
+    margin: 5px 10px 80px 10px;
+    font-size: 25px;
+    height: 250px;
+    width: 100%;
+    background: white;
+    text-align: center;
+    color: black;
+    border: 10px solid #1b1b1b95;
+    border-top: 10px solid #1b1b1b95;
+    border-right: 10px solid #1b1b1b;
+    border-bottom: 10px solid #1b1b1b;
+    box-shadow: 0 15px 23px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.wrapper .main_content .send_button{
+    padding: 10px 10px 10px 10px;
+    margin: 5px 5px 5px 5spx;
+    font-size: 25px;
+    height: max-content;
+    text-transform: uppercase;
+    width: max-content;
+    background: rgba(128, 128, 128, 0);
+    text-align: center;
+    color: black;
+    border-top: 10px solid #1b1b1b95;
+    border-right: 10px solid #1b1b1b;
+    border-bottom: 10px solid #1b1b1b;
+    border-left:10px solid #1b1b1b95;
+    box-shadow: 0 15px 23px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.wrapper .main_content .send_button:hover{
+    background: rgb(128, 128, 128);
+    border-bottom: 10px solid #1b1b1b95;
+    border-left: 10px solid #1b1b1b;
+    border-top: 10px solid #1b1b1b;
+    border-right:10px solid #1b1b1b95;
 }
