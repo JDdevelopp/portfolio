@@ -282,3 +282,52 @@ body {
     color: white;
     letter-spacing: 1px;
 }
+
+.slider{
+
+}
+
+.wrapper .main_content .artwork_design{
+    padding: 20px 20px 20px 30px;
+    margin: 10px 10px 100px 10px;
+    letter-spacing: 1px;
+    font-size: 40px;
+    background: white;
+    text-align: center;
+    color: black;
+    border-left: 10px solid #1b1b1b;
+    box-shadow: 0 15px 23px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.wrapper .main_content .artwork_design img{
+    width: 400px;
+}
+
+.artwork_design_paint1{
+    padding: 20px 20px 20px 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px; 
+    width: max-content;
+    height: max-content;
+    font-size: 40px;
+    background: white;
+    text-align: center;
+    color: black;
+    border-left: 10px solid #1b1b1b;
+    box-shadow: 0 15px 23px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.artwork_design_paint2{
+    padding: 20px 20px 20px 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px; 
+    width: max-content;
+    height: max-content;
+    font-size: 40px;
+    background: white;
+    text-align: center;
+    color: black;
+    border-right: 10px solid #1b1b1b;
+    box-shadow: 0 15px 23px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
