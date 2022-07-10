@@ -70,10 +70,12 @@ body {
 
 .active{
     background:linear-gradient(45deg, black, white);
+    color: white;
 }
 
 .wrapper .sidebar ul li:hover a{
-    color: black;
+    color: white;
+    font-weight: 900;
 }
 
 .wrapper .sidebar .social_media{
@@ -174,56 +176,65 @@ body {
 }
 
 .page_info{
-    padding: 20px 20px 20px 20px;
-    margin: 5px 5px 50px 10px;
-    font-size: 30px;
+    padding:20px;
+    margin-top: 25px;
+    margin-bottom: 75px;
+    margin-left: auto;
+    margin-right:auto;
+    font-size: 55px;
     border-radius: 100px;
-    width: max-content;
+    width: 70%;
     background: white;
     text-align: center;
     color: white;
     background: linear-gradient(45deg, black, grey);
-    box-shadow: 0 15px 23px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .wrapper .main_content .enter_email{
-    padding: 10px 10px 10px 10px;
-    margin: 10px 10px 80px 10px;
+    border-radius:35px ;
+    padding: 5px 5px 5px 5px;
+    margin: 25px 5px 30px 5px;
     font-size: 25px;
-    width: 100%;
+    width: 75%;
     background: white;
     text-align: center;
     color: black;
     border: 10px solid #1b1b1b95;
-    border-top: 10px solid #1b1b1b95;
+    border-bottom: 10px solid #1b1b1b95;
     border-right: 10px solid #1b1b1b;
-    border-bottom: 10px solid #1b1b1b;
-    box-shadow: 0 15px 23px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-top: 10px solid #1b1b1b;
+    box-shadow: 0 15px 23px 0 rgb(0, 0, 0);
+}
+p.contact_form{
+    font-size: 25px;
 }
 
 .wrapper .main_content .enter_message{
-    padding: 10px 10px 10px 10px;
-    margin: 5px 10px 80px 10px;
+    border-radius: 35px;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 25px;
-    height: 250px;
-    width: 100%;
+    height: 200px;
+    width: 95%;
     background: white;
     text-align: center;
     color: black;
     border: 10px solid #1b1b1b95;
-    border-top: 10px solid #1b1b1b95;
+    border-bottom: 10px solid #1b1b1b95;
     border-right: 10px solid #1b1b1b;
-    border-bottom: 10px solid #1b1b1b;
-    box-shadow: 0 15px 23px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-top: 10px solid #1b1b1b;
+    box-shadow: 0 15px 23px 0 rgb(0, 0, 0);
 }
 
 .wrapper .main_content .send_button{
     padding: 10px 10px 10px 10px;
-    margin: 5px 5px 5px 5spx;
+    margin: 5px 5px 50px 5px;
     font-size: 25px;
     height: max-content;
     text-transform: uppercase;
-    width: max-content;
+    width: 20%;
     background: rgba(128, 128, 128, 0);
     text-align: center;
     color: black;
@@ -231,14 +242,16 @@ body {
     border-right: 10px solid #1b1b1b;
     border-bottom: 10px solid #1b1b1b;
     border-left:10px solid #1b1b1b95;
-    box-shadow: 0 15px 23px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 30px;
 }
 .wrapper .main_content .send_button:hover{
-    background: rgb(128, 128, 128);
+    transition: 0.5s;
     border-bottom: 10px solid #1b1b1b95;
-    border-left: 10px solid #1b1b1b;
     border-top: 10px solid #1b1b1b;
-    border-right:10px solid #1b1b1b95;
+    border-right: 10px solid #1b1b1b;
+    border-left:10px solid #1b1b1b95;
+    box-shadow: 0 15px 23px 0 rgb(0, 0, 0);
+    font-weight: 900;
 }
 
 .thank{
