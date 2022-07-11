@@ -202,11 +202,32 @@ body {
 }
 
 .wrapper .main_content .enter_email{
+    border-radius:100px ;
+    padding: 2px 2px 2px 2px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    width: 90%;
+    background: white;
+    text-align: center;
+    color: black;
+    border-left: 10px solid #1b1b1b95;
+    border-bottom: 10px solid #1b1b1b95;
+    border-right: 10px solid #1b1b1b;
+    border-top: 10px solid #1b1b1b;
+    box-shadow: 0 15px 23px 0 rgb(0, 0, 0);
+}
+.wrapper .main_content .enter_name{
     border-radius:35px ;
-    padding: 5px 5px 5px 5px;
-    margin: 25px 5px 30px 5px;
-    font-size: 25px;
-    width: 75%;
+    padding: 2px 2px 2px 2px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    width: 49%;
     background: white;
     text-align: center;
     color: black;
@@ -311,13 +332,6 @@ p.small_p{
     
 }
 
-.formsubmit_promotion{
-    background: linear-gradient(45deg,white, grey);
-    padding: 15px;
-    border-radius: 50px;
-    color: black;
-}
-
 .home{
     background: linear-gradient(45deg, black, grey);
     margin-left: auto;
@@ -337,25 +351,6 @@ p.small_p{
     color: white;
     letter-spacing: 1px;
 }
-
-/* .wrapper .main_content .artwork_design{
-    padding: 10px 10px 10px 10px;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 100px;
-    margin-top: 20px;
-    letter-spacing: 1px;
-    font-size: 40px;
-    background: white;
-    text-align: center;
-    color: black;
-    border-left: 10px solid #1b1b1b;
-    box-shadow: 0 15px 23px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-} */
-/* .wrapper .main_content .artwork_design img{
-    width: 400px;
-} */
 
 .artwork_design_paint1{
     padding: 20px 20px 20px 30px;
