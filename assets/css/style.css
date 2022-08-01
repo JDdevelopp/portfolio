@@ -26,12 +26,20 @@ body {
     padding:  30px 0;
 }
 .wrapper .sidebar .sidebar_pic{
-    width: 100px;
+    width: 110px;
     border-radius: 100%;
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 0;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
+    border: 5px solid white;
+}
+.wrapper .sidebar .sidebar_pic:hover{
+    box-shadow: 0px 0px 200px 10px white;
+    transition: 0.7s ease-in-out;
+}
+.wrapper .sidebar .sidebar_pic:not(:hover){
+    transition: 0.7s ease-in-out;
 }
 
 .wrapper .sidebar h2{
@@ -48,43 +56,38 @@ body {
     border-top: 1px solid rgba(255, 251, 251, 0.05);
 }
 
-.wrapper .sidebar ul li a{
+.wrapper .sidebar ul a li{
+    letter-spacing: 1px;
+    word-spacing: 2px;
     color: white;
     display: block;
     font-size: 18px;
 }
-
-.wrapper .sidebar ul li a .fas{
+.wrapper .sidebar ul a li  .fas{
     display: relative;
     width: 25px;
     color: white;
     font-size: 22px;
     margin-right: 15px;
 }
-.wrapper .sidebar ul li a .fa-solid{
+.wrapper .sidebar ul a li  .fa-solid{
     display: relative;
     width: 25px;
-    color:white;
+    color: white;
     font-size: 22px;
     margin-right: 15px;
 }
-
-
-.wrapper .sidebar ul li:hover{
+.sidebar ul a li:hover{
     background:linear-gradient(45deg, black, white);
-    transition: 0.5s ease-in-out;
 }
-
 .active{
     background:linear-gradient(45deg, black, white);
     color: white;
 }
-
 .wrapper .sidebar ul li:hover a{
     color: white;
     font-weight: 900;
 }
-
 .wrapper .sidebar .social_media{
     position: absolute;
     bottom: 0;
@@ -412,4 +415,102 @@ p.small_p{
 }
 ::-webkit-scrollbar-thumb:hover{
     background: grey;
+}
+
+.social_button{
+    background: #1b1b1b;
+    border-radius:30px ;
+    color: white;
+    margin-top: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15px;
+    width: max-content;
+    padding: 10px;
+    border: 3px solid whitesmoke;
+}
+.social_button:hover{
+    transition: 1s;
+    box-shadow: 0px 0px 30px 0px white;
+}
+.social_button:not(:hover){
+    transition: 1s;
+}
+.socials_div{
+    display: inline-block;
+    margin-right: 10px;
+}
+.socials_div iframe{
+    box-shadow: 15px 15px 25px 0px rgb(74, 74, 74);
+    margin-right: 5px;
+}
+.socials_div h2{
+    padding: 15px;
+    background: linear-gradient(45deg, black, grey);
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    color: white;
+    font-size: 35px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+.socials_div2{
+    display: inline-block;
+    margin-right: 10px;
+}
+.socials_div2 h2{
+    padding: 15px;
+    background: linear-gradient(45deg, black, grey);
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    color: white;
+    font-size: 35px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+.twitter_img{
+    height: 350px;
+    width: 300px;
+    border-radius: 25px;
+}
+.img_twitter{
+    height: 350px;
+    width: 300px;
+    border-radius: 0%;
+    border-radius: 0;
+    border-radius: 25px;
+    box-shadow: 15px 15px 25px 0px rgb(74, 74, 74);
+}
+.git_img{
+    height: 350px;
+    width: 300px;
+    border-radius: 25px;
+}
+.img_git{
+    height: 350px;
+    width: 300px;
+    border-radius: 0%;
+    border-radius: 0;
+    border-radius: 25px;
+    box-shadow: 15px 15px 25px 0px rgb(74, 74, 74);
+}
+.wrapper .main_content .socials_design{
+    padding: 20px 20px 20px 20px;
+    width: 85%;
+    margin-top: 30px;
+    margin-bottom: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    background: white;
+    text-align: center;
+    color: black;
+    border-left: 10px solid #1b1b1b;
+    box-shadow: 0 15px 23px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
