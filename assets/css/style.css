@@ -565,7 +565,15 @@ nav .menu-btn i{
 #click{
     display: none;
 }
-
+.mobile_profile_design{
+    display: none;
+}
+img.mobile_logo_img{
+    display: none;
+}
+nav{
+    display: none;
+}
 @media only screen and (max-width: 600px) {
     *{
         margin: 0;
@@ -618,6 +626,7 @@ nav .menu-btn i{
         border-bottom: 1px solid rgba(255, 255, 255, 0.134);
     }
     img.mobile_logo_img{
+        display: block;
         margin-top: 20px;
         margin-bottom: 15px;
         width: 50px;
@@ -641,6 +650,7 @@ nav .menu-btn i{
         background: #e3e3e3 ;
     }
     .mobile_profile_design{
+        display: block;
         padding: 20px 20px 20px 20px;
         width: 85%;
         margin-top: 30px;
@@ -654,4 +664,5 @@ nav .menu-btn i{
         border-left: 10px solid #1b1b1b;
         box-shadow: 0 15px 23px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
+
 }
