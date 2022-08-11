@@ -552,8 +552,8 @@ p.small_p{
     box-shadow: 0 15px 23px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #preloader{
-    background: #1b1b1b url('../images/preloader.gif') no-repeat center center;
-    background-size: 100px;
+    background: black url('../images/preloader3.gif') no-repeat center center;
+    background-size: 750px;
     height: 100vh;
     width: 100%;
     position: fixed;
