@@ -1,2 +1,7 @@
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-<script src="https://kit.fontawesome.com/77c10cf66c.js" crossorigin="anonymous"></script>
+var typed = new Typed(".head_2", {
+    strings: ["blankdata","Web Development.","Sleeping.","Annoying My Friends.","Listening Music"],
+    typeSpeed: 100,
+    backSpeed: 25,
+    showCursor: false,
+    loop: true,
+})

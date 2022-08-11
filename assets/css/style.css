@@ -90,7 +90,7 @@ body {
 }
 .wrapper .sidebar .social_media{
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -106,12 +106,38 @@ body {
     color: white;
     text-align: center;
     margin: 0 5px;
-    border-radius: 50%;
+    border-radius: 5px;
 }
-
 .wrapper .sidebar .social_media a:hover{
     color: black;
+    border-radius: 100%;
 }
+.wrapper .sidebar .social_media a:not(:hover){
+    transition: 2s;
+}
+
+
+/* .social_media2{
+    position: fixed;
+    left: 100%;
+    transform: translateX(-120%);
+    display: inline-block;
+}
+.social_media2 a{
+    display: block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    background: grey;
+    color: white;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    border-radius: 25%;
+}
+.social_media2 a:hover{
+    color: black;
+} */
 
 .wrapper .main_content{
     width: 100%;
@@ -133,13 +159,23 @@ body {
     color: black;
 }
 .wrapper .main_content .footer .social_media a{
-    letter-spacing: 20px;
-    margin-top: 10px;
-    color: black;
-    border-radius: 100%;
     font-size: 20px;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    color: black;
+    text-align: center;
+    margin-right:10px;
 }
-
+.wrapper .main_content .footer .social_media a:hover{
+    background: #1b1b1b;
+    color: white;
+    border-radius: 100px;
+}
+.wrapper .main_content .footer .social_media a:not(:hover){
+    transition: 1.5s;
+}
 .wrapper .main_content .header_2{
     padding: 20px;
     margin: 10px 10px 120px 10px;
@@ -419,7 +455,7 @@ p.small_p{
 
 .social_button{
     background: #1b1b1b;
-    border-radius:30px ;
+    border-radius:15px ;
     color: white;
     margin-top: 5px;
     margin-right: auto;
@@ -430,7 +466,8 @@ p.small_p{
     border: 3px solid whitesmoke;
 }
 .social_button:hover{
-    transition: 1s;
+    transition: 0.3s;
+    font-weight: 900;
     box-shadow: 0px 0px 30px 0px white;
 }
 .social_button:not(:hover){
@@ -501,7 +538,7 @@ p.small_p{
     box-shadow: 15px 15px 25px 0px rgb(74, 74, 74);
 }
 .wrapper .main_content .socials_design{
-    padding: 20px 20px 20px 20px;
+    padding: 20px;
     width: 85%;
     margin-top: 30px;
     margin-bottom: 75px;
@@ -513,4 +550,12 @@ p.small_p{
     color: black;
     border-left: 10px solid #1b1b1b;
     box-shadow: 0 15px 23px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#preloader{
+    background: #1b1b1b url('../images/preloader.gif') no-repeat center center;
+    background-size: 100px;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
 }
