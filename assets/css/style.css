@@ -559,3 +559,86 @@ p.small_p{
     position: fixed;
     z-index: 100;
 }
+nav .menu-btn i{
+    display: none;
+}
+#click{
+    display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style: none;
+        text-decoration: none;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    .wrapper{
+        display: none;
+    }
+    nav{
+        height: 75px;
+        background: #1b1b1b;;
+        display: flex;
+        align-items: center;
+        padding-top:2px;
+        padding-bottom: 2px;
+        padding-right: 25px;
+        padding-left: 25px;
+        justify-content: space-between;
+    }
+    nav ul{
+        padding: 10px;
+        border: 2px solid whitesmoke;
+        position: fixed;
+        display: flex;
+        list-style: none;
+        top: 90px;
+        left: -95%;
+        background: #1b1b1b;
+        height: 60vh;
+        width: 200px;
+        display: block;
+        transition: all 1s ease-in-out;
+    }
+    #click:checked ~ ul{
+        left: 0%;
+    }
+    #click:checked ~ .menu-btn i::before{
+        content: "\2190";
+    }
+    nav ul li{
+        word-spacing: 2px;
+        padding: 15px;
+        color: white;
+        text-align: left;
+        font-size:20px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.134);
+
+    }
+    img.mobile_logo_img{
+        margin-top: 20px;
+        margin-bottom: 15px;
+        width: 50px;
+        border-radius: 100px;
+        border: 2px solid white;
+        margin-right: 20px;
+    }
+    .mobile_nav_h1{
+        letter-spacing: 2px;
+        color: white;
+        font-size: 25px;
+        transform: translateX(-55%);
+    }
+    nav .menu-btn i{
+        display: block;
+        color: white;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    body {
+        background: #e3e3e3 ;
+    }
+}
