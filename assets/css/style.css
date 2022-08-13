@@ -574,10 +574,25 @@ img.mobile_logo_img{
 nav{
     display: none;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 550px) {
+    .active{
+        display: none;
+    }
+    .mobile_active{
+        font-size: 20px;
+        text-align: center;
+        margin-top:10px ;
+        border-radius: 100px;
+        width: 100%;
+        background:linear-gradient(45deg, black, white);
+        border-bottom: 8px solid rgb(0, 0, 0);
+        border-top: 2px solid rgb(0, 0, 0);
+        border-right: 2px solid rgb(0, 0, 0);
+        border-left: 2px solid rgb(0, 0, 0);
+    }
     *{
-        margin: 0;
-        padding: 0;
+        margin: 0px;
+        padding: 0px;
         box-sizing: border-box;
         list-style: none;
         text-decoration: none;
@@ -587,8 +602,11 @@ nav{
         display: none;
     }
     nav{
-        height: 75px;
-        background: #1b1b1b;;
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        height: 70px;
+        background: #1b1b1b;
         display: flex;
         align-items: center;
         padding-top:2px;
@@ -599,35 +617,40 @@ nav{
     }
     nav ul{
         padding: 10px;
-        border: 2px solid whitesmoke;
+        border-top: 15px solid rgb(0, 0, 0);
+        border-bottom: 15px solid rgb(0, 0, 0);
+        border-left: 5px solid rgb(0, 0, 0);
+        border-right: 20px solid rgb(0, 0, 0);
         position: fixed;
         display: flex;
         list-style: none;
-        top: 90px;
+        top: 80px;
         left: -95%;
-        background: #1b1b1b;
-        height: 60vh;
-        width: 200px;
+        background: rgba(0, 0, 0, 0.653);
+        border-radius: 55px;
+        height: 65vh;
+        width: 220px;
         display: block;
         transition: all 1s ease-in-out;
     }
     #click:checked ~ ul{
         left: 0%;
+        transition: 0.5s all;
     }
     #click:checked ~ .menu-btn i::before{
         content: "\2190";
     }
     nav ul li{
-        word-spacing: 2px;
+        word-spacing:2px;
         padding: 15px;
         color: white;
         text-align: left;
-        font-size:20px;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.134);
+        font-size:18px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.185);
     }
     img.mobile_logo_img{
         display: block;
-        margin-top: 20px;
+        margin-top:20px;
         margin-bottom: 15px;
         width: 50px;
         border-radius: 100px;
