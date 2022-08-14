@@ -574,6 +574,9 @@ img.mobile_logo_img{
 nav{
     display: none;
 }
+.profile_image_beginning{
+    display: none;
+}
 @media only screen and (max-width: 550px) {
     .active{
         display: none;
@@ -688,6 +691,7 @@ nav{
         box-shadow: 0 15px 23px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     .profile_image_beginning{
+        display: block;
         text-align: center;
         margin: 0;
         width: 100%;
