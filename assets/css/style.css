@@ -577,6 +577,9 @@ nav{
 .profile_image_beginning{
     display: none;
 }
+.page_info_mobile{
+    display: none;
+}
 @media only screen and (max-width: 550px) {
     .active{
         display: none;
@@ -708,6 +711,7 @@ nav{
         box-shadow: 15px 0px 80px 0px black;
     }
     .page_info_mobile{
+        display: block;
         padding-top:15px;
         padding-bottom:15px;
         padding-left: 30px;
