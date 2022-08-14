@@ -663,8 +663,8 @@ nav{
     .mobile_nav_h1{
         letter-spacing: 2px;
         color: white;
-        font-size: 25px;
-        transform: translateX(-55%);
+        font-size: 22px;
+        transform: translateX(-70%);
     }
     nav .menu-btn i{
         display: block;
