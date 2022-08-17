@@ -578,7 +578,7 @@ nav{
     display: none;
 }
 .page_info_mobile{
-    display: none;
+    display: none; 
 }
 @media only screen and (max-width: 550px) {
     .active{
