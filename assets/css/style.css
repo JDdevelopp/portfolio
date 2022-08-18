@@ -23,25 +23,23 @@ body {
     width: 200px;
     height: 100%;
     background: #1b1b1b;
-    padding:  30px 0;
+    padding:  15px 0;
 }
 .wrapper .sidebar .sidebar_pic{
     width: 110px;
     border-radius: 100%;
     margin-left: 50px;
     margin-right: 50px;
-    margin-top: 0;
     margin-bottom: 25px;
     border: 5px solid white;
 }
 .wrapper .sidebar .sidebar_pic:hover{
-    box-shadow: 0px 0px 200px 10px white;
-    transition: 0.7s ease-in-out;
+    box-shadow: 0px 0px 150px 10px white;
+    transition: 0.3s ease-in-out;
 }
 .wrapper .sidebar .sidebar_pic:not(:hover){
-    transition: 0.7s ease-in-out;
+    transition: 1s ease-in-out;
 }
-
 .wrapper .sidebar h2{
     color: white;
     text-transform: uppercase;
@@ -49,32 +47,30 @@ body {
     margin-bottom: 30px;
     letter-spacing: 1px;
 }
-
 .wrapper .sidebar ul li{
-    padding: 20px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.134);
+    padding: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.039);
     border-top: 1px solid rgba(255, 251, 251, 0.05);
 }
-
 .wrapper .sidebar ul a li{
     letter-spacing: 1px;
     word-spacing: 2px;
     color: white;
     display: block;
-    font-size: 18px;
+    font-size: 17px;
 }
 .wrapper .sidebar ul a li  .fas{
     display: relative;
-    width: 25px;
+    width: 20px;
     color: white;
-    font-size: 22px;
+    font-size: 20px;
     margin-right: 15px;
 }
 .wrapper .sidebar ul a li  .fa-solid{
     display: relative;
-    width: 25px;
+    width: 20px;
     color: white;
-    font-size: 22px;
+    font-size: 20px;
     margin-right: 15px;
 }
 .sidebar ul a li:hover{
@@ -96,7 +92,6 @@ body {
     display: flex;
     padding: 50px;
 }
-
 .wrapper .sidebar .social_media a{
     display: block;
     width: 35px;
@@ -106,14 +101,14 @@ body {
     color: white;
     text-align: center;
     margin: 0 5px;
-    border-radius: 5px;
 }
 .wrapper .sidebar .social_media a:hover{
+    box-shadow: 0px 0px 25px 10px white;
     color: black;
-    border-radius: 100%;
+    border-radius: 100px;
 }
 .wrapper .sidebar .social_media a:not(:hover){
-    transition: 2s;
+    transition: 3s;
 }
 
 
@@ -143,7 +138,6 @@ body {
     width: 100%;
     margin-left: 200px;
 }
-
 .wrapper .main_content .header{
     padding: 20px;
     background: white;
@@ -151,7 +145,6 @@ body {
     color: black;
     border-bottom: 5px solid #e0e4e8;
 }
-
 .wrapper .main_content .footer{
     padding: 20px;
     background:white;
@@ -169,12 +162,13 @@ body {
     margin-right:10px;
 }
 .wrapper .main_content .footer .social_media a:hover{
+    box-shadow: 0px 0px 25px 5px black;
     background: #1b1b1b;
     color: white;
     border-radius: 100px;
 }
 .wrapper .main_content .footer .social_media a:not(:hover){
-    transition: 1.5s;
+    transition: 2s;
 }
 .wrapper .main_content .header_2{
     padding: 20px;
@@ -209,22 +203,18 @@ body {
     color: black;
     line-height: 25px;
 }
-
 .wrapper .main_content .main_content_img{
     width: 300px;
     border-radius: 8%;
     box-shadow: 15px 0px 100px black;
     margin-bottom: 30px;
 }
-
 .wrapper .main_content .info div{
     margin-bottom: 20px;
 }
-
 .end_info{
     font-size: 25px;
 }
-
 .page_info{
     padding:20px;
     margin-top: 25px;
@@ -232,14 +222,23 @@ body {
     margin-left: auto;
     margin-right:auto;
     font-size: 55px;
-    border-radius: 100px;
+    border-radius: 35px;
     width: 70%;
     background: white;
     text-align: center;
     color: white;
     background: linear-gradient(45deg, black, grey);
 }
+.page_info:hover{
+    border-radius: 0px;
+    transition: 0.7s;
+    width: 100%;
+    font-size: 55px;
 
+}
+.page_info:not(:hover){
+    transition: 1.5s;
+}
 .wrapper .main_content .enter_email{
     border-radius:100px ;
     padding: 2px 2px 2px 2px;
@@ -329,7 +328,6 @@ p.small_p{
     border-top: 10px solid #1b1b1b;
     box-shadow: 0 15px 23px 0 rgb(0, 0, 0);
 }
-
 .wrapper .main_content .send_button{
     padding: 10px 10px 10px 10px;
     margin: 5px 5px 50px 5px;
@@ -370,7 +368,6 @@ p.small_p{
     color: white;
     
 }
-
 .home{
     background: linear-gradient(45deg, black, grey);
     margin-left: auto;
@@ -381,21 +378,18 @@ p.small_p{
     font-size: 35px;
     border-radius:45px;
 }
-
 .home:hover{
     background: linear-gradient(45deg, grey, black);
 }
-
 .home a{
     color: white;
     letter-spacing: 1px;
 }
-
 .artwork_design_paint1{
     padding: 20px 20px 20px 30px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 25px; 
+    margin-bottom: 50px; 
     width: max-content;
     height: max-content;
     font-size: 40px;
@@ -403,19 +397,23 @@ p.small_p{
     text-align: center;
     color: black;
     border-left: 10px solid #1b1b1b;
-    box-shadow: 0 15px 23px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .artwork_design_paint1 img{
     width: 400px;
 }
-.artwork_design_paint2 img{
-    width: 400px;
+.artwork_design_paint1:hover{
+    transition: 0.2s;
+    box-shadow: 15px 15px 25px 10px rgb(74, 74, 74);
 }
+.artwork_design_paint1:not(:hover){
+    transition: 2s;
+}
+
 .artwork_design_paint2{
     padding: 20px 20px 20px 30px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 25px; 
+    margin-bottom: 50px; 
     width: max-content;
     height: max-content;
     font-size: 40px;
@@ -423,7 +421,16 @@ p.small_p{
     text-align: center;
     color: black;
     border-right: 10px solid #1b1b1b;
-    box-shadow: 0 15px 23px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.artwork_design_paint2 img{
+    width: 400px;
+}
+.artwork_design_paint2:hover{
+    transition: 0.2s;
+    box-shadow: 15px 15px 25px 0px rgb(74, 74, 74);
+}
+.artwork_design_paint2:not(:hover){
+    transition: 2s;
 }
 .pins{
     font-size: 25px;
@@ -452,7 +459,6 @@ p.small_p{
 ::-webkit-scrollbar-thumb:hover{
     background: grey;
 }
-
 .social_button{
     background: #1b1b1b;
     border-radius:15px ;
