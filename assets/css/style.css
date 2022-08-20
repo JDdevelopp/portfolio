@@ -28,6 +28,7 @@ body {
 .wrapper .sidebar .sidebar_pic{
     width: 110px;
     border-radius: 100%;
+    margin-top:5px;
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 25px;
@@ -586,6 +587,9 @@ nav{
 .page_info_mobile{
     display: none; 
 }
+.mobile_header_2{
+    display: none;
+}
 @media only screen and (max-width: 550px) {
     .active{
         display: none;
@@ -733,5 +737,19 @@ nav{
         text-align: center;
         color: white;
         background: linear-gradient(45deg, black, grey);
+    }
+    .mobile_header_2{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+        height: 180px;
+        padding: 10px;
+        font-size: 30px;
+        background: white;
+        text-align: center;
+        color: black;
+        border-left: 10px solid #1b1b1b;
+        box-shadow: 0 15px 23px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 }
