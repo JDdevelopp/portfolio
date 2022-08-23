@@ -590,6 +590,9 @@ nav{
 .mobile_header_2{
     display: none;
 }
+.mobile_artwork_design_paint1, .mobile_artwork_design_paint2{
+    display: none;
+}
 @media only screen and (max-width: 550px) {
     .active{
         display: none;
@@ -751,5 +754,43 @@ nav{
         color: black;
         border-left: 10px solid #1b1b1b;
         box-shadow: 0 15px 23px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .mobile_profile_img{
+        width: 70px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 15px 0px black;
+    }
+    .mobile_artwork_design_paint1{
+        display: block;
+        padding: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px; 
+        width: max-content;
+        height: max-content;
+        font-size: 25px;
+        background: white;
+        text-align: center;
+        color: black;
+        border-left:5px solid #1b1b1b;
+        box-shadow: 15px 15px 10px 0px rgb(74, 74, 74);
+    }
+    .mobile_artwork_design_paint1 img, .mobile_artwork_design_paint2 img{
+        width: 300px;
+    }
+    .mobile_artwork_design_paint2{
+        display: block;
+        padding: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px; 
+        width: max-content;
+        height: max-content;
+        font-size: 25px;
+        background: white;
+        text-align: center;
+        color: black;
+        border-right:5px solid #1b1b1b;
+        box-shadow: 15px 15px 10px 0px rgb(74, 74, 74);
     }
 }
