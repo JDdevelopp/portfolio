@@ -621,6 +621,15 @@ nav{
 .mobile_footer{
     display: none;
 }
+.p_mobile_thank_msg{
+    display: none;
+}
+.h1_mobile_thank_head{
+    display: none;
+}
+.button_main_mobile{
+    display: none;
+}
 @media only screen and (max-width: 550px) {
     .active{
         display: none;
@@ -891,9 +900,14 @@ nav{
         text-align: center;
     }
     .p_mobile_thank_msg{
+        display: block;
         font-size: 20px;
     }
     .h1_mobile_thank_head{
+        display: block;
         font-size: 35px;
+    }
+    .button_main_mobile{
+        display: block;
     }
 }
