@@ -210,8 +210,15 @@ body {
 .wrapper .main_content .main_content_img{
     width: 300px;
     border-radius: 8%;
-    box-shadow: 15px 0px 100px black;
+    box-shadow: 15px 15px 75px 10px black;
     margin-bottom: 30px;
+}
+.wrapper .main_content .main_content_img:hover{
+    transition: 2s;
+    transform: rotate(1440deg);
+}
+.wrapper .main_content .main_content_img:not(:hover){
+    transition: 5s;
 }
 .wrapper .main_content .info div{
     margin-bottom: 20px;
