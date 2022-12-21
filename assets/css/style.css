@@ -498,17 +498,24 @@ p.small_p{
     display: inline-block;
     margin-right: 10px;
 }
-.socials_div iframe{
+
+/* Need to put this back for putting discord. */
+/* .socials_div iframe{
+    box-shadow: 15px 15px 25px 0px rgb(74, 74, 74);
+    margin-right: 500px;
+} */
+
+.socials_div_spotify iframe{
     box-shadow: 15px 15px 25px 0px rgb(74, 74, 74);
     margin-right: 5px;
 }
-.socials_div h2{
+.socials_div h2,.socials_div_spotify h2{
     padding: 15px;
     background: linear-gradient(45deg, black, grey);
     width: max-content;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 10px;
+    border-radius: 20px;
     color: white;
     font-size: 35px;
     margin-bottom: 5px;
@@ -525,37 +532,29 @@ p.small_p{
     width: max-content;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 10px;
+    border-radius: 20px;
     color: white;
     font-size: 35px;
     margin-bottom: 5px;
     margin-top: 20px;
     letter-spacing: 2px;
 }
-.twitter_img{
-    height: 350px;
-    width: 300px;
-    border-radius: 25px;
-}
 .img_twitter{
     height: 350px;
     width: 300px;
-    border-radius: 0%;
-    border-radius: 0;
-    border-radius: 25px;
+    border-radius: 30px;
     box-shadow: 15px 15px 25px 0px rgb(74, 74, 74);
-}
-.git_img{
-    height: 350px;
-    width: 300px;
-    border-radius: 25px;
 }
 .img_git{
     height: 350px;
     width: 300px;
-    border-radius: 0%;
-    border-radius: 0;
-    border-radius: 25px;
+    border-radius: 30px;
+    box-shadow: 15px 15px 25px 0px rgb(74, 74, 74);
+}
+.img_reddit{
+    height: 350px;
+    width: 300px;
+    border-radius: 30px;
     box-shadow: 15px 15px 25px 0px rgb(74, 74, 74);
 }
 .wrapper .main_content .socials_design{
