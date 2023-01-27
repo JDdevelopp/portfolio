@@ -214,11 +214,11 @@ body {
     margin-bottom: 30px;
 }
 .wrapper .main_content .main_content_img:hover{
-    transition: 2s;
-    transform: rotate(1440deg);
+    transition: 1s;
+    transform: rotate(360deg);
 }
 .wrapper .main_content .main_content_img:not(:hover){
-    transition: 5s;
+    transition: 2s;
 }
 .wrapper .main_content .info div{
     margin-bottom: 20px;
@@ -722,7 +722,7 @@ nav{
         letter-spacing: 2px;
         color: white;
         font-size: 22px;
-        transform: translateX(-70%);
+        transform: translateX(-65%);
     }
     nav .menu-btn i{
         display: block;
@@ -746,6 +746,7 @@ nav{
         text-align: center;
         color: black;
         border-left: 10px solid #1b1b1b;
+        border-radius: 30px;
         box-shadow: 0 15px 23px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     .profile_image_beginning{
