@@ -111,7 +111,15 @@ body {
 .wrapper .sidebar .social_media a:not(:hover){
     transition: 3s;
 }
-
+.updated a{
+    background: linear-gradient(45deg,black,rgb(160, 160, 160)); 
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+}
+.updated a:hover{
+    background: linear-gradient(-45deg,black,rgb(160, 160, 160)); 
+}
 
 /* .social_media2{
     position: fixed;
@@ -732,6 +740,15 @@ nav{
     }
     body {
         background: #e3e3e3 ;
+    }
+    .updated a{
+        background: linear-gradient(45deg,black,rgb(160, 160, 160)); 
+        padding: 10px;
+        color: white;
+        border-radius: 20px;
+    }
+    .updated a:hover{
+        background: linear-gradient(-45deg,black,rgb(160, 160, 160)); 
     }
     .mobile_profile_design{
         display: block;
