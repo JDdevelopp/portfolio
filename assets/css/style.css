@@ -191,21 +191,23 @@ body {
     border-left: 10px solid #1b1b1b;
     box-shadow: 0 15px 23px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.wrapper .main_content .profile_design{
+.wrapper .main_content .information_box{
     padding: 20px 20px 20px 20px;
-    width: 85%;
+    min-width: 300px;
+    width: 55%;
     margin-top: 30px;
     margin-bottom: 75px;
     margin-left: auto;
     margin-right: auto;
     font-size: 40px;
     background: white;
+    border-radius: 30px;
     text-align: center;
     color: black;
     border-left: 10px solid #1b1b1b;
     box-shadow: 0 15px 23px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.wrapper .main_content .profile_design img{
+.wrapper .main_content .information_box img{
     box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.438);
     width: 100px;
     border-radius: 100%;
@@ -222,11 +224,11 @@ body {
     margin-bottom: 30px;
 }
 .wrapper .main_content .main_content_img:hover{
-    transition: 1s;
-    transform: rotate(360deg);
+    transition: 0.5s;
+    transform: scale(1.07);
 }
 .wrapper .main_content .main_content_img:not(:hover){
-    transition: 2s;
+    transition: 0.5s;
 }
 .wrapper .main_content .info div{
     margin-bottom: 20px;
@@ -235,29 +237,20 @@ body {
     font-size: 25px;
 }
 .page_info{
-    padding:20px;
+    padding:15px;
     margin-top: 25px;
     margin-bottom: 75px;
     margin-left: auto;
     margin-right:auto;
     font-size: 55px;
-    border-radius: 35px;
-    width: 70%;
+    border-radius:0px;
+    width: 100%;
     background: white;
     text-align: center;
     color: white;
     background: linear-gradient(45deg, black, grey);
 }
-.page_info:hover{
-    border-radius: 0px;
-    transition: 0.7s;
-    width: 100%;
-    font-size: 55px;
 
-}
-.page_info:not(:hover){
-    transition: 1.5s;
-}
 .wrapper .main_content .enter_email{
     border-radius:100px ;
     padding: 2px 2px 2px 2px;
@@ -408,20 +401,21 @@ p.small_p{
     letter-spacing: 1px;
 }
 .artwork_design_paint1{
-    padding: 20px 20px 20px 30px;
+    padding:20px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px; 
-    width: max-content;
+    width: 90%;
+    max-width: 550px;
     height: max-content;
-    font-size: 40px;
+    font-size: 35px;
     background: white;
     text-align: center;
     color: black;
     border-left: 10px solid #1b1b1b;
 }
 .artwork_design_paint1 img{
-    width: 400px;
+    width: 100%;
 }
 .artwork_design_paint1:hover{
     transition: 0.2s;
@@ -433,20 +427,21 @@ p.small_p{
 }
 
 .artwork_design_paint2{
-    padding: 20px 20px 20px 30px;
+    padding: 20px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px; 
-    width: max-content;
+    width: 90%;
+    max-width: 550px;
     height: max-content;
-    font-size: 40px;
+    font-size: 35px;
     background: white;
     text-align: center;
     color: black;
     border-right: 10px solid #1b1b1b;
 }
 .artwork_design_paint2 img{
-    width: 400px;
+    width: 100%;
 }
 .artwork_design_paint2:hover{
     transition: 0.2s;
@@ -611,7 +606,7 @@ nav .menu-btn i{
 #click{
     display: none;
 }
-.mobile_profile_design{
+.mobile_information_box{
     display: none;
 }
 img.mobile_logo_img{
@@ -750,7 +745,7 @@ nav{
     .updated a:hover{
         background: linear-gradient(-45deg,black,rgb(160, 160, 160)); 
     }
-    .mobile_profile_design{
+    .mobile_information_box{
         display: block;
         padding: 10px 10px 10px 10px;
         width: 85%;
