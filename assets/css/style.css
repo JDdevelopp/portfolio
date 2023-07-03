@@ -121,27 +121,6 @@ body {
     background: linear-gradient(-45deg,black,rgb(160, 160, 160)); 
 }
 
-/* .social_media2{
-    position: fixed;
-    left: 100%;
-    transform: translateX(-120%);
-    display: inline-block;
-}
-.social_media2 a{
-    display: block;
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
-    background: grey;
-    color: white;
-    text-align: center;
-    margin-bottom: 5px;
-    margin-left: 10px;
-    border-radius: 25%;
-}
-.social_media2 a:hover{
-    color: black;
-} */
 
 .wrapper .main_content{
     width: 100%;
