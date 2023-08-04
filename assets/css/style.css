@@ -623,6 +623,14 @@ p.small_p{
     color: white;
 }
 
+.small_p_quote{
+    font-family: cursive;
+    font-size: 23px;
+    padding: 20px;
+    margin-bottom: 10px;
+    display: block;
+
+}
 /* ----------------- BOX 1 ---------------------- */
 
 .box-1 img{
@@ -709,6 +717,9 @@ nav{
     display: none;
 }
 .button_main_mobile{
+    display: none;
+}
+.mobile_small_p_quote{
     display: none;
 }
 @media only screen and (max-width: 550px) {
@@ -993,6 +1004,14 @@ nav{
     .p_mobile_thank_msg{
         display: block;
         font-size: 20px;
+    }
+    .mobile_small_p_quote{
+        font-family: cursive;
+        font-size: 23px;
+        padding: 20px;
+        margin-bottom: 10px;
+        display: block;
+
     }
     .h1_mobile_thank_head{
         display: block;
