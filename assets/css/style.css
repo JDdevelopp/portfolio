@@ -218,12 +218,12 @@ body {
     font-size: 25px;
 }
 .page_info{
-    padding:15px;
+    padding:10px;
     margin-top: 25px;
     margin-bottom: 75px;
     margin-left: auto;
     margin-right:auto;
-    font-size: 55px;
+    font-size: 45px;
     border-radius:0px;
     width: 100%;
     background: white;
@@ -383,6 +383,7 @@ p.small_p{
     color: white;
     letter-spacing: 1px;
 }
+
 .artwork_design_paint1{
     padding:20px;
     margin-left: auto;
@@ -409,6 +410,8 @@ p.small_p{
     transition: 2s;
 }
 
+
+
 .artwork_design_paint2{
     padding: 20px;
     margin-left: auto;
@@ -433,6 +436,67 @@ p.small_p{
 .artwork_design_paint2:not(:hover){
     transition: 2s;
 }
+
+
+/* for long images */
+.artwork_design_paint1_long{
+    padding:20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px; 
+    width: 90%;
+    max-width: 550px;
+    height: max-content;
+    font-size: 35px;
+    background: white;
+    text-align: center;
+    color: black;
+    border-left: 10px solid #1b1b1b;
+}
+.artwork_design_paint1_long img{
+    height: 500px;
+}
+.artwork_design_paint1_long:hover{
+    transition: 0.2s;
+    box-shadow: 15px 15px 10px 0px rgb(74, 74, 74);
+
+}
+.artwork_design_paint1_long:not(:hover){
+    transition: 2s;
+}
+
+
+
+.artwork_design_paint2_long{
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px; 
+    width: 90%;
+    max-width: 550px;
+    height: max-content;
+    font-size: 35px;
+    background: white;
+    text-align: center;
+    color: black;
+    border-right: 10px solid #1b1b1b;
+}
+.artwork_design_paint2_long img{
+    height: 500px;
+}
+.artwork_design_paint2_long:hover{
+    transition: 0.2s;
+    box-shadow: 15px 15px 10px 0px rgb(74, 74, 74);
+}
+.artwork_design_paint2_long:not(:hover){
+    transition: 2s;
+}
+
+
+
+
+
+
 .pins{
     font-size: 25px;
     text-align: left;
@@ -843,6 +907,54 @@ nav{
         border-left: 10px solid #1b1b1b;
         border-radius: 30px;
         box-shadow: 0 15px 23px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .mobile_information_box_announcement{
+        display: block;
+        padding: 10px 10px 10px 10px;
+        width: 85%;
+        margin-top: 50px;
+        margin-bottom: 75px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 40px;
+        background: white;
+        text-align: center;
+        color: black;
+        border-left: 10px solid #1b1b1b;
+        border-radius: 30px;
+        box-shadow: 0 15px 23px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        animation: highlight infinite 2s;
+        position: relative;
+        z-index: -1;
+    }
+
+    @keyframes highlight {
+        0%{
+            color: white;
+            transform: rotate(5deg);
+        }
+        25%{
+            color: black;
+            transform: rotate(-5deg);
+
+        }
+        50%{
+            color: white;
+            transform: rotate(5deg);
+
+        }        
+        75%{
+            color: black;
+            transform: rotate(-5deg);
+
+        }        
+        100%{
+            color: white;
+            transform: rotate(5deg);
+
+        }
+        
+
     }
     .profile_image_beginning{
         display: block;
